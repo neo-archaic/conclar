@@ -23,12 +23,12 @@ You can find Octocon in the Gibson Hotel, Point Square, North Dock, Dublin, D01 
 All times are listed in Irish time (UTC+1) and your local time - you can change the timezone displayed in ConClár on the **Settings** page.
 
 **Registration and Info**
-* Saturday: from 9am
-* Sunday: from 9am
+* Saturday: from 9:30am
+* Sunday: from 9:30am
 
 **Trade Hall**
 * Saturday: 10am - 6pm
-* Sunday: 10am - 6pm
+* Sunday: 10am - 5pm
 
 **Programme**
 * Saturday: from 10am (Opening Ceremony) to 8:30pm
