@@ -1,5 +1,5 @@
 {
-  "BASE_PATH": "/",
+  "BASE_PATH": "/2024/",
   "APP_ID": "OCTO24",
   "APP_TITLE": "Octocon 2024 Programme Guide",
   "PROGRAM_DATA_URL": "/2024/schedule.json",
@@ -21,7 +21,7 @@
   "TIMEZONECODE": "IST",
   "INTERACTIVE": true,
   "HEADER": {
-    "IMG_SRC": "/Octocon-logo-960x240.png",
+    "IMG_SRC": "/2024/Octocon-logo-960x240.png",
     "IMG_ALT_TEXT": "Octocon, the National Irish Science Fiction Convention banner.",
     "LINEFEED_AFTER_URL": true
   },
@@ -31,7 +31,7 @@
     "MYSCHEDULE": "My Schedule",
     "INFO": "Information",
     "SETTINGS": "Settings",
-    "EXTRA": [{ "LABEL": "Octocon Website", "URL": "https://octocon.com/" }]
+    "EXTRA": [{ "LABEL": "Octocon Website", "URL": "https://2024.octocon.com/" }]
   },
   "HELP_TEXT": {
     "WELCOME": "Share your personal schedule to other devices using the QR codes on the My Schedule page.",
@@ -274,7 +274,7 @@
     }
   },
   "FOOTER": {
-    "SITE_NOTE_MARKDOWN": "[Octocon Website](https://octocon.com) | [Privacy Policy](https://octocon.com/privacy-policy/)",
+    "SITE_NOTE_MARKDOWN": "[Octocon Website](https://2024.octocon.com) | [Privacy Policy](https://octocon.com/privacy-policy/)",
     "COPYRIGHT_MARKDOWN": "© 2024 Octocon",
     "CONCLAR_NOTE_MARKDOWN": "Guide powered by [ConClár](https://github.com/lostcarpark/conclar)"
   },
