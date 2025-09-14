@@ -2,8 +2,8 @@
   "BASE_PATH": "/2024/",
   "APP_ID": "OCTO24",
   "APP_TITLE": "Octocon 2024 Programme Guide",
-  "PROGRAM_DATA_URL": "/2024/schedule.json",
-  "PEOPLE_DATA_URL": "/2024/participants.json",
+  "PROGRAM_DATA_URL": "/2024/2024/schedule.json",
+  "PEOPLE_DATA_URL": "/2024/2024/participants.json",
   "FETCH_OPTIONS": {
     "cache": "reload",
     "credentials": "omit",
