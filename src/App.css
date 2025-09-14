@@ -390,10 +390,6 @@ input.switch:checked ~ label:after {
 .filter-options,
 .filter-hide-before
 {
-.people-search,
-.filter-options,
-.filter-hide-before
-{
   flex-basis: 0;
   flex-grow: 1;
   margin: 0.25em;
@@ -401,10 +397,6 @@ input.switch:checked ~ label:after {
 
 .filter-tags,
 .filter-locations,
-.filter-search,
-.people-search,
-.filter-hide-before
- {
 .filter-search,
 .people-search,
 .filter-hide-before
@@ -449,9 +441,6 @@ input.switch:checked ~ label:after {
   display: none;
 }
 
-.filter-container .filter-select__control,
-.filter-hide-before select
-{
 .filter-container .filter-select__control,
 .filter-hide-before select
 {
