@@ -1,9 +1,9 @@
 {
   "BASE_PATH": "/",
-  "APP_ID": "OCTO24",
-  "APP_TITLE": "Octocon 2024 Programme Guide",
-  "PROGRAM_DATA_URL": "/2024/schedule.json",
-  "PEOPLE_DATA_URL": "/2024/participants.json",
+  "APP_ID": "OCTO25",
+  "APP_TITLE": "Octocon 2025 Programme Guide",
+  "PROGRAM_DATA_URL": "/2025/program.js",
+  "PEOPLE_DATA_URL": "/2025/people.js",
   "FETCH_OPTIONS": {
     "cache": "reload",
     "credentials": "omit",
@@ -21,7 +21,7 @@
   "TIMEZONECODE": "IST",
   "INTERACTIVE": true,
   "HEADER": {
-    "IMG_SRC": "/Octocon-logo-960x240.png",
+    "IMG_SRC": "/Octocon2025-programme-banner.png",
     "IMG_ALT_TEXT": "Octocon, the National Irish Science Fiction Convention banner.",
     "LINEFEED_AFTER_URL": true
   },
@@ -275,7 +275,7 @@
   },
   "FOOTER": {
     "SITE_NOTE_MARKDOWN": "[Octocon Website](https://octocon.com) | [Privacy Policy](https://octocon.com/privacy-policy/)",
-    "COPYRIGHT_MARKDOWN": "© 2024 Octocon",
+    "COPYRIGHT_MARKDOWN": "© 2025 Octocon",
     "CONCLAR_NOTE_MARKDOWN": "Guide powered by [ConClár](https://github.com/lostcarpark/conclar)"
   },
   "TIMER": {
