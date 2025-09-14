@@ -1,47 +1,46 @@
 # About Octocon
 [Octocon](https://octocon.com) is the Irish National Science Fiction Convention, held continuously since 1990.
 
-Octocon 2024 takes place on Saturday 5th and Sunday 6th October, in-person at the Gibson Hotel, Dublin, and online via our Member Portal.
-Our Guest of Honour is Ruth Frances Long, aka Jessica Thorne. [Learn more about her and our other guests.](https://2024.octocon.com/octocon-guests/)
+Octocon 2025 takes place on Saturday 11th and Sunday 12th October, in-person on Saturday at the Maldron Hotel, Tallaght, Dublin, and online both days via our Member Portal.
+[Learn more about our guests for this year.](https://2025.octocon.com/octocon-guests/)
 
-All members of Octocon must abide by our [Code of Conduct](https://2024.octocon.com/code-of-conduct/). Members attending in-person must follow our [Disease Mitigation policy](https://2024.octocon.com/covid-19-policy/). Face masks are required.
+All members of Octocon must abide by our [Code of Conduct](https://2025.octocon.com/code-of-conduct/). Members attending in-person must follow our [Disease Mitigation policy](https://2025.octocon.com/disease-mitigation/). Face masks are required.
 
 ## Join Us!
-If you're coming in-person, you need an Attending membership (which also gets you access to our online programme). Concession rates and YA (aged 13-21) memberships are available, and children (12 and under) can attend for free. Day memberships are also available.
+If you're coming in-person, you need an Attending membership (which also gets you access to our online programme). Concession rates and YA (aged 13-21) memberships are available, and children (12 and under) can attend for free. 
 
-If you're going to be joining us exclusively online, you need a Virtual & Supporting membership.
+If you're going to be joining us exclusively online, you need a Supporting & Online membership.
 
 [Get your membership now!](https://registration.octocon.com)
 
-## At the Gibson Hotel
-You can find Octocon in the Gibson Hotel, Point Square, North Dock, Dublin, D01 X2P2.
+## At the Maldron Hotel
+You can find Octocon in the Maldron Hotel Tallaght, Whitestown Way, Tallaght, Dublin 24, D24 XC9W.
 
-[More transport and parking information](https://2024.octocon.com/venue/)
-
+[More transport and parking information](https://2025.octocon.com/venue/)
 
 ### Opening Hours 
-All times are listed in Irish time (UTC+1) and your local time - you can change the timezone displayed in ConClár on the **Settings** page.
+All times on the programme schedule are listed in Irish time (UTC+1) and your local time - you can change the timezone displayed in ConClár on the **Settings** page.
+Times below are in Irish time (UTC+1).
 
 **Registration and Info**
-* Saturday: from 9:30am
-* Sunday: from 9:30am
+* Saturday: from 9am in the upstairs foyer of the Maldron Hotel
 
 **Trade Hall**
-* Saturday: 10am - 6pm
-* Sunday: 10am - 5pm
+* Saturday: 10am - 5:30pm in the Shannon 1 Suite
 
 **Programme**
-* Saturday: from 10am (Opening Ceremony) to 8:30pm
-* Saturday night social: from 8:30pm, including the Greater Octocon Table Quiz
-* Sunday: 10:30am – 7:30pm (Closing Ceremony begins at 7pm)
+* Friday: Opening Ceremony (online only) at 7pm
+* Saturday: from 10am until 6pm
+* Saturday night social: The Return of the Octocon Table Quiz from 8pm
+* Sunday: online only, including the Closing Ceremony at 6:30pm
 
 ## Online
 Panels are streamed on a webpage embedded in our Member Portal. Workshops, talks and chats all take place on Zoom, and we also have a Discord server for information and a social space.
-As well as online-only programme, we are also streaming as much as possible from the main programme room in the Gibson Hotel, Stratocaster. Filter the programme by **Online** to show everything you can watch online.
+As well as online-only programme, we are also streaming as much as possible from the main programme room in the Maldron Hotel, Shannon Suite 2. Filter the programme by **Online** to show everything you can watch online.
 
 To access all our online content:
 
-1. Log into the Member Portal by visiting the [Log in to the Member Portal page](https://registration.octocon.com/2024/members/check) and entering the email address you're registered with. 
+1. Log into the Member Portal by visiting the [Log in to the Member Portal page](https://registration.octocon.com/2025/members/check) and entering the email address you're registered with. 
 2. You'll receive an email with a link that will log you into the Member Portal - click this! You should stay logged in for the whole weekend (as long as you use the same browser - if you change devices, you'll need to request another link).
 3. On the Member Portal, you can watch our streamed panels and find links to the various Zoom meetings for talks, workshops, readings, chats and our Saturday evening social.
 
@@ -49,9 +48,10 @@ To access all our online content:
 All times are listed in Irish time (UTC+1) and your local time - you can change the timezone displayed in ConClár on the **Settings** page.
 
 **Programme**
-* Saturday: 10am (Opening Ceremony, streamed live from the Gibson Hotel) - 8:30pm
-* Saturday night social: 9pm - late (includes a watch party)
-* Sunday: 10:30am – 7:30pm (Closing Ceremony begins at 7pm, streamed live from the Gibson Hotel)
+* Friday: Opening Ceremony (online only) at 7pm
+* Saturday: 10am - 8pm, including programme streamed from the Maldron Hotel
+* Saturday night social: 9pm - late
+* Sunday: 10am – 6:30pm (Closing Ceremony begins at 6:30pm)
 Breakout rooms will be available in Zoom 2 throughout the weekend as social space.
 
 ## Programme Notes
