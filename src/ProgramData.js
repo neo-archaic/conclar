@@ -375,6 +375,18 @@ export class ProgramData {
   }
 
   /**
+   * Fetch Text from URL.
+   *
+   * @param {string} url
+   * @returns {object}
+   */
+  static async fetchText(url, fetchOptions) {
+    const res = await fetch(url, fetchOptions);
+    const text = await res.text();
+    return text;
+  }
+
+  /**
    * Fetch JSON from URL.
    *
    * @param {string} url
@@ -400,18 +412,25 @@ export class ProgramData {
         : configData.FETCH_OPTIONS;
       // If only one data source, we can use a single fetch.
       if (configData.PROGRAM_DATA_URL === configData.PEOPLE_DATA_URL) {
-        const [rawProgram, rawPeople] = await this.fetchUrl(
-          configData.PROGRAM_DATA_URL, fetchOptions
-        );
-        return ProgramData.processData(rawProgram, rawPeople);
+        const [rawData, info] = await Promise.all([
+          this.fetchUrl(configData.PROGRAM_DATA_URL, fetchOptions),
+          this.fetchText(configData.INFORMATION.MARKDOWN_URL, fetchOptions),
+        ]);
+        const [rawProgram, rawPeople] = rawData;
+        const data =  ProgramData.processData(rawProgram, rawPeople);
+        data.info = info;
+        return data;
       } else {
         // Separate program and people sources, so need to create promise for each fetch.
-        const [[rawProgram], [rawPeople]] = await Promise.all([
+        const [[rawProgram], [rawPeople], info] = await Promise.all([
           this.fetchUrl(configData.PROGRAM_DATA_URL, fetchOptions),
           this.fetchUrl(configData.PEOPLE_DATA_URL, fetchOptions),
+          this.fetchText(configData.INFORMATION.MARKDOWN_URL, fetchOptions),
         ]);
         // Called with an array containing result of each promise.
-        return ProgramData.processData(rawProgram, rawPeople);
+        const data =  ProgramData.processData(rawProgram, rawPeople);
+        data.info = info;
+        return data;
       }
     } catch (e) {
       console.log("Fetch error", e);

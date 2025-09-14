@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import ReactSelect from "react-select";
 import { useStoreState, useStoreActions } from "easy-peasy";
 import { Temporal } from "@js-temporal/polyfill";
@@ -10,6 +11,8 @@ import ShowPastItems from "./ShowPastItems";
 import { LocalTime } from "../utils/LocalTime";
 
 const FilterableProgram = () => {
+  const navigate = useNavigate();
+
   const program = useStoreState((state) => state.program);
   const locations = useStoreState((state) => state.locations);
   const tags = useStoreState((state) => state.tags);
@@ -167,18 +170,21 @@ const FilterableProgram = () => {
         Array.isArray(selTags.days) &&
         selTags.days.length > 0
       ) {
+        // if days selected, take start time for first selected day.
         const minDay = selTags.days.reduce(
           (acc, curr) => (curr.value < acc ? curr.value : acc),
           selTags.days[0].value
         );
         filtered = filterHideBefore(filtered, minDay);
       } else if (filtered[0] && "tags" in filtered[0]) {
+        // If days tag present on items get date of first programme item.
         const tag = filtered[0].tags.find((item) => item.category === "days");
         if (tag && "value" in tag) {
           const minDay = tag.value;
           filtered = filterHideBefore(filtered, minDay);
         }
       } else {
+        // As backup get date from drop-down items.
         const labelledDays = tags.days.filter((item) => typeof item.label !== "undefined");
         const minDay = labelledDays.reduce(
           (acc, curr) => (curr.value < acc ? curr.value : acc),
@@ -291,8 +297,16 @@ const FilterableProgram = () => {
               isSearchable={configData.LOCATIONS.SEARCHABLE}
               value={selLoc}
               onChange={(value) => {
+                console.log(value);
                 resetDisplayLimit();
                 setSelLoc(value);
+                if (value.length) {
+                  const locList = value.map((location) => location.value).join('~');
+                  navigate('/loc/' + locList);
+                }
+                else {
+                  navigate('/');
+                }
               }}
               className="filter-container"
               classNamePrefix="filter-select"
