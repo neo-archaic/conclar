@@ -233,7 +233,7 @@
     "CHECKBOX_LABEL": "Useless checkbox"
   },
   "INFORMATION": {
-    "MARKDOWN_URL": "info.md?ver=2",
+    "MARKDOWN_URL": "info.md",
     "LOADING_MESSAGE": "Loading..."
   },
   "SETTINGS": {
