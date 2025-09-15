@@ -90,11 +90,9 @@
     "HIDE": false,
     "SEPARATE": [
       { "PREFIX": "Division", "PLACEHOLDER": "Select division", "SEARCHABLE": false, "HIDE": true },
-      { "PREFIX": "Track", "PLACEHOLDER": "Select track", "SEARCHABLE": false, "HIDE": false },
-      { "PREFIX": "type", "PLACEHOLDER": "Select format", "SEARCHABLE": false, "HIDE": false },
-      { "PREFIX": "Tag", "PLACEHOLDER": "Select tag", "SEARCHABLE": false, "HIDE": false },
-      { "PREFIX": "Environment", "PLACEHOLDER": "Select environment", "SEARCHABLE": false, "HIDE": false },
-      { "PREFIX": "Note", "PLACEHOLDER": "Select note", "SEARCHABLE": false, "HIDE": false }
+      { "PREFIX": "Track", "PLACEHOLDER": "Select environment", "SEARCHABLE": false, "HIDE": false },
+      { "PREFIX": "Type", "PLACEHOLDER": "Select type", "SEARCHABLE": false, "HIDE": false },
+      { "PREFIX": "Tag", "PLACEHOLDER": "Select tag", "SEARCHABLE": false, "HIDE": false }
     ],
     "FORMAT_AS_TAG": true,
     "DAY_TAG": {

@@ -23,16 +23,16 @@ All times on the programme schedule are listed in Irish time (UTC+1) and your lo
 Times below are in Irish time (UTC+1).
 
 **Registration and Info**
-* Saturday: from 9am in the upstairs foyer of the Maldron Hotel
+* Saturday: from 09:00 in the upstairs foyer of the Maldron Hotel
 
 **Trade Hall**
-* Saturday: 10am - 5:30pm in the Shannon 1 Suite
+* Saturday: 10:00 - 17:30 in the Shannon 1 Suite
 
 **Programme**
-* Friday: Opening Ceremony (online only) at 7pm
-* Saturday: from 10am until 6pm
-* Saturday night social: The Return of the Octocon Table Quiz from 8pm
-* Sunday: online only, including the Closing Ceremony at 6:30pm
+* Friday: Opening Ceremony (online only) at 19:00 followed by an informal social in the bar/lobby
+* Saturday: from 10:00 until 18:00
+* Saturday night social: The Return of the Octocon Table Quiz from 20:00
+* Sunday: online only, including the Closing Ceremony at 18:30
 
 ## Online
 Panels are streamed on a webpage embedded in our Member Portal. Workshops, talks and chats all take place on Zoom, and we also have a Discord server for information and a social space.
@@ -48,10 +48,10 @@ To access all our online content:
 All times are listed in Irish time (UTC+1) and your local time - you can change the timezone displayed in ConClár on the **Settings** page.
 
 **Programme**
-* Friday: Opening Ceremony (online only) at 7pm
-* Saturday: 10am - 8pm, including programme streamed from the Maldron Hotel
-* Saturday night social: 9pm - late
-* Sunday: 10am – 6:30pm (Closing Ceremony begins at 6:30pm)
+* Friday: Opening Ceremony (online only) at 19:00 followed by a social Zoom hangout
+* Saturday: 10:00 - 20:00, including programme streamed from the Maldron Hotel
+* Saturday night social: 21:00 - late
+* Sunday: 10:00 – 18:30 (Closing Ceremony begins at 18:30)
 Breakout rooms will be available in Zoom 2 throughout the weekend as social space.
 
 ## Programme Notes
@@ -68,6 +68,6 @@ It has been developed in ReactJS and is intended to work in all modern browsers.
 * Use the checkboxes on the **Programme** page to select the items you want to appear in your personalised programme on the **My Schedule** page.
 * Use filters to search for topics or types of items. You can use multiple filters at the same time.
 * If you want to only see in-person or online items, select from the **Select environment** filter:
-	* At the Gibson Hotel: select *In-person*
-	* Online: select *Online*
+	* At the Maldron Hotel: select *In-person only* and *In-person + streamed*
+	* Online: select *Online only* and *In-person + streamed*
 * You can show the programme in your own timezone by changing your **Settings**. By default, the programme is displayed in Irish time (UTC+1 during the convention) and your browser's default timezone (if it differs from convention time).
