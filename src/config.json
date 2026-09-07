@@ -1,9 +1,9 @@
 {
-  "BASE_PATH": "/",
+  "BASE_PATH": "/2025/",
   "APP_ID": "OCTO25",
   "APP_TITLE": "Octocon 2025 Programme Guide",
-  "PROGRAM_DATA_URL": "/2025/program.js",
-  "PEOPLE_DATA_URL": "/2025/people.js",
+  "PROGRAM_DATA_URL": "/2025/2025/program.js",
+  "PEOPLE_DATA_URL": "/2025/2025/people.js",
   "FETCH_OPTIONS": {
     "cache": "reload",
     "credentials": "omit",
@@ -21,7 +21,7 @@
   "TIMEZONECODE": "IST",
   "INTERACTIVE": true,
   "HEADER": {
-    "IMG_SRC": "/Octocon2025-programme-banner.png",
+    "IMG_SRC": "/2025/Octocon2025-programme-banner.png",
     "IMG_ALT_TEXT": "Octocon, the National Irish Science Fiction Convention banner.",
     "LINEFEED_AFTER_URL": true
   },
