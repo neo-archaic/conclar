@@ -1,1 +1,0 @@
-[{"id":"0013","name":["Catherine Sharp"],"sortname":"Sharp Catherine","prog":["1","2","39"],"bio":null,"links":{"photo":"https:\/\/participants.octocon.com\/participant_photos\/ppc0279f73075a52e1a7dea35065bc8c80.jpg"}},{"id":"0039","name":["Kat Dodd"],"sortname":"Dodd Kat","prog":["1","2"],"bio":null,"links":[]}]
