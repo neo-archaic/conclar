@@ -17,7 +17,7 @@ yarn.lock
 /build
 
 # config
-/src/config.json
+#/src/config.json
 
 # misc
 .DS_Store
