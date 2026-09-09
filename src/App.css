@@ -41,7 +41,7 @@
  */
 :root {
   /* ---- Tier 1: Inputs ---- */
-  --brand-tint: #528235; /* slightly darkened #619b40; */
+  --brand-tint: #507F39; /* slightly darkened #619b40; 528235*/
   --gray-tint: #e5403d;
   --info-tint: #2b7fff;
   --danger-tint: #ff4c4c;
@@ -112,7 +112,7 @@
   --sidebar-border: var(--gray-200);
   --image-bg: #fff; /* photos read best on white in both modes */
 
-  --control: var(--brand-700);
+  --control: var(--brand-500);
 
   --button-primary-bg: var(--brand-500);
   --button-primary-fg: var(--text-on-color);
