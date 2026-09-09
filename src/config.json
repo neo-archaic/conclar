@@ -3,10 +3,6 @@
   "APP_TITLE": "Octocon 2026 Programme Guide",
   "PROGRAM_DATA_URL": "/2026/program.js",
   "PEOPLE_DATA_URL": "/2026/people.js",
-  "DATA_URLS_DISABLED ": {
-    "SCHEDULE": "/2026/schedule.json",
-    "PEOPLE": "/2026/people.json"
-  },
   "FETCH_OPTIONS": {
     "cache": "reload",
     "credentials": "omit",
@@ -24,8 +20,8 @@
   "TIMEZONECODE": "IST",
   "INTERACTIVE": true,
   "HEADER": {
-    "IMG_SRC": "",
-    "IMG_ALT_TEXT": "Octocon, the National Irish Science Fiction Convention",
+    "IMG_SRC": "/octo_popcorn_logo.webp",
+    "IMG_ALT_TEXT": "Octocon, the National Irish Science Fiction Convention. Octo with popcorn and logo.",
     "LINEFEED_AFTER_URL": false
   },
   "NAVIGATION": {
@@ -34,7 +30,7 @@
     "MYSCHEDULE": "My Schedule",
     "INFO": "Information",
     "SETTINGS": "Settings",
-    "EXTRA": [{ "LABEL": "Octocon Home", "URL": "https://octocon.com", "ICON_NAME": "Home" }]
+    "EXTRA": [{ "LABEL": "Octocon Home", "URL": "https://octocon.com", "ICON_NAME": "Home" }, { "LABEL": "Members Portal", "URL": "https://registration.octocon.com/2026/members/check", "ICON_NAME": "Globe" }]
   },
   "HELP_TEXT": {
     "WELCOME": "Welcome to ConClár. You can use the checkboxes next to programme items to make a personal schedule. You can view this on the My Schedule page, and share to other devices.",
@@ -103,9 +99,9 @@
     "HIDE": false,
     "SEPARATE": [
       { "PREFIX": "Division", "PLACEHOLDER": "Select division", "SEARCHABLE": false, "HIDE": true },
-      { "PREFIX": "Type", "PLACEHOLDER": "Select type", "SEARCHABLE": false, "HIDE": false },
-      { "PREFIX": "Tag", "PLACEHOLDER": "Select tag", "SEARCHABLE": false, "HIDE": false },
-      { "PREFIX": "Track", "PLACEHOLDER": "Select track", "SEARCHABLE": false, "HIDE": false }
+      { "PREFIX": "Track", "PLACEHOLDER": "Environments", "SEARCHABLE": false, "HIDE": false },
+      { "PREFIX": "Type", "PLACEHOLDER": "Types", "SEARCHABLE": false, "HIDE": false },
+      { "PREFIX": "Tag", "PLACEHOLDER": "Tags", "SEARCHABLE": false, "HIDE": false }
     ],
     "FORMAT_AS_TAG": false,
     "DAY_TAG": {
@@ -117,7 +113,7 @@
         "7": "Sunday",
         "1": "Monday"
       },
-      "PLACEHOLDER": "Select days",
+      "PLACEHOLDER": "Days",
       "SEARCHABLE": false,
       "HIDE": false
     },
@@ -125,7 +121,7 @@
   },
   "HIDE_BEFORE": {
     "HIDE": false,
-    "PLACEHOLDER": "Select time",
+    "PLACEHOLDER": "Time",
     "TIMES": [
       { "TIME": "10:00:00", "LABEL_24H": "10:00", "LABEL_12H": "10am" },
       { "TIME": "12:00:00", "LABEL_24H": "12:00", "LABEL_12H": "12 noon" },
@@ -213,7 +209,7 @@
       "SHOW_THUMBNAILS": true,
       "SHOW_CHECKBOX": true,
       "CHECKBOX_LABEL": "Show thumbnails",
-      "DEFAULT_IMAGE": "head.svg"
+      "DEFAULT_IMAGE": "octo-160.png"
     },
     "SORT": {
       "SHOW_CHECKBOX": true,
@@ -280,8 +276,8 @@
     }
   },
   "FOOTER": {
-    "SITE_NOTE_MARKDOWN": "",
-    "COPYRIGHT_MARKDOWN": "",
+    "SITE_NOTE_MARKDOWN": "[Octocon Website](https://octocon.com) | [Privacy Policy](https://octocon.com/privacy-policy/)",
+    "COPYRIGHT_MARKDOWN": "&copy; 2026 Octocon",
     "CONCLAR_NOTE_MARKDOWN": "Guide powered by [ConClár](https://github.com/lostcarpark/conclar)"
   },
   "TIMER": {
