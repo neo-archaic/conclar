@@ -1,6 +1,6 @@
 {
   "APP_ID": "O2021",
-  "APP_TITLE": "ConClár Programme Guide",
+  "APP_TITLE": "Octocon 2026 Programme Guide",
   "PROGRAM_DATA_URL": "/2026/program.js",
   "PEOPLE_DATA_URL": "/2026/people.js",
   "DATA_URLS_DISABLED ": {
@@ -25,7 +25,7 @@
   "INTERACTIVE": true,
   "HEADER": {
     "IMG_SRC": "",
-    "IMG_ALT_TEXT": "",
+    "IMG_ALT_TEXT": "Octocon, the National Irish Science Fiction Convention",
     "LINEFEED_AFTER_URL": false
   },
   "NAVIGATION": {
