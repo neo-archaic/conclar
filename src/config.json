@@ -4,7 +4,7 @@
   "PROGRAM_DATA_URL": "/2026/program.js",
   "PEOPLE_DATA_URL": "/2026/people.js",
   "DATA_URLS_DISABLED ": {
-    "SCHEDULE": "/2026/schedule_copy.json",
+    "SCHEDULE": "/2026/schedule.json",
     "PEOPLE": "/2026/people.json"
   },
   "FETCH_OPTIONS": {
