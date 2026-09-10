@@ -910,7 +910,7 @@ div.switch-wrapper {
 
 .filter-container .filter-select__option--is-focused {
   background-color: var(--brand-100);
-  color: var(--brand-800);
+  color: var(--brand-900);
 }
 
 .filter-container .filter-select__indicator-separator {
