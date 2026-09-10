@@ -854,7 +854,7 @@ div.switch-wrapper {
 {
   width: 100%;
   height: 100%;
-  font-size: 1rem;
+  font-size: 0.8rem;
   padding: 0.5rem;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -922,7 +922,7 @@ div.switch-wrapper {
 .filter-container .filter-select__input-container,
 .filter-container .filter-select__placeholder,
 .filter-container .filter-select__single-value {
-  background-color: none;
+  background-color: transparent;
   color: var(--filter-fg);
 }
 
