@@ -1,8 +1,8 @@
 {
   "APP_ID": "O2021",
   "APP_TITLE": "Octocon 2026 Programme Guide",
-  "PROGRAM_DATA_URL": "/2026/program.js",
-  "PEOPLE_DATA_URL": "/2026/people.js",
+  "PROGRAM_DATA_URL": "/2026/2026/program.js",
+  "PEOPLE_DATA_URL": "/2026/2026/people.js",
   "FETCH_OPTIONS": {
     "cache": "reload",
     "credentials": "omit",
@@ -20,7 +20,7 @@
   "TIMEZONECODE": "IST",
   "INTERACTIVE": true,
   "HEADER": {
-    "IMG_SRC": "/octo_popcorn_logo.webp",
+    "IMG_SRC": "/2026/octo_popcorn_logo.webp",
     "IMG_ALT_TEXT": "Octocon, the National Irish Science Fiction Convention. Octo with popcorn and logo.",
     "LINEFEED_AFTER_URL": false
   },

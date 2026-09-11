@@ -65,6 +65,7 @@ function injectDataPreloads() {
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/2026/",
   plugins: [react(), validateConfigPlugin(), injectDataPreloads()],
   server: {
     port: 3000,
