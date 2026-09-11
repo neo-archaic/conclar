@@ -209,7 +209,7 @@
       "SHOW_THUMBNAILS": true,
       "SHOW_CHECKBOX": true,
       "CHECKBOX_LABEL": "Show thumbnails",
-      "DEFAULT_IMAGE": "/2026/octo-160.png"
+      "DEFAULT_IMAGE": "octo-160.png"
     },
     "SORT": {
       "SHOW_CHECKBOX": true,
